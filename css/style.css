@@ -18,10 +18,13 @@ section{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+video{
+	box-shadow: 3px 3px #c91d1b;
+}
 
 h1{
 	font-family: 'Dhurjati', sans-serif;
-	font-size: 140px;
+	font-size: 200px;
 	padding-top: 0px;
 	padding-bottom: 0;
 	text-shadow: 3px 3px #c91d1b;
@@ -65,6 +68,7 @@ section p{
 	-webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 cursor: pointer;
+box-shadow: 3px 3px #c91d1b;
 }
 
 .button:hover{
@@ -73,7 +77,7 @@ cursor: pointer;
 }
 
 img{
-	box-shadow: 2px 2px #c91d1b;
+	box-shadow: 1px 1px #c91d1b;
 }
 
 nav{
@@ -95,6 +99,27 @@ nav a, nav h3{
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 	text-decoration-color: #c91d1b;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 
