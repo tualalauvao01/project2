@@ -65,7 +65,7 @@ header{
 section p{
 	padding-top: 0px;
 	text-align: left;
-	font-size: 25px;
+	font-size: 18.2px;
 }
 
 .button {
@@ -111,6 +111,13 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 	text-decoration-color: #c91d1b;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+  }
 
 .container{
 	position: relative;
